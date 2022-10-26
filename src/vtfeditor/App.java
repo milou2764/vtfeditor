@@ -309,6 +309,7 @@ public class App {
                 byte[] input = Arrays.copyOfRange(data, offset, data.length);
                 decompressDXT5(input, width, height, image);
             }
+            panel.repaint();
         }
     }
 }
